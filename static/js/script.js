@@ -33,8 +33,6 @@ buildList()
 
 		function buildList(){
 
-			let wrapper = document.querySelector('.list_all')
-            wrapper = '';
 			let url = '/api/project-list/';
 
 			fetch(url)
