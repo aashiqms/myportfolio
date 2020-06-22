@@ -1,0 +1,103 @@
+.container-main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.container-arrow-down{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.container-arrow-down a{
+    color: white;
+}
+
+.container-arrow-down a:hover{
+    color: lightblue;
+}
+
+.all{
+height: 100vh;
+    background: #001f3f;
+}
+
+.bg-custom{
+    background: #001f3f;
+}
+
+.about{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    /*margin-bottom: 30%;*/
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.about ul li{
+    list-style: none;
+}
+
+.technology{
+    display: flex;
+
+}
+
+.tools{
+    display: flex;
+        /*margin-bottom: 25%;*/
+
+}
+
+.line-break {
+  width: 100%;
+}
+
+.tools li{
+    color: white;
+    list-style: none;
+}
+
+.portfolio p{
+    color: white;
+}
+
+.technologies{
+    flex: 1;
+    /*margin-left: 15px;*/
+}
+
+.lead{
+    margin-top: 0;
+
+
+}
+
+
+.portfolio{
+    display: flex;
+    flex-flow: column wrap;
+        margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.projects h1{
+    color: white;
+}
+
+.heading-green{
+    color: mediumseagreen;
+}
+
