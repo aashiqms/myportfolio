@@ -16,7 +16,6 @@ def api_overview(request):
         'Create': 'api/project-create/',
         'Update': 'api/project-update/<str:pk>/',
         'Delete': 'api/project-delete/<str:pk>/',
-        '--------': 'Model Fields listed below -------',
 
         "id": 32,
         "project": "example_name",
