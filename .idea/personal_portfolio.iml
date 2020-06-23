@@ -20,6 +20,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="twitter-bootstrap" level="application" />
     <orderEntry type="library" name="jquery.scrollTo" level="application" />
+    <orderEntry type="library" name="f6d86c79eb" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

@@ -40,11 +40,18 @@ buildList()
 			.then(function(data){
 				console.log('Data:', data)
 
-				let list = data;
-				list.forEach((element, i) => {
-					let details = `<p>${list[i].title}</p>
-                                  <p>${list[i].description}</p>  
+				data.forEach((element, i) => {
+
+					let details = `<p><span class="heading-green">Project Name: </span></p>
+									<p>${element.title}</p>
+									<p><span class="heading-green">Description: </span></p>
+									<p>${element.description}</p>
+									<p><span class="heading-green">Source Code: </span></p>
+									<p>
+									<a href="${element.project_url}" style="text-decoration: none;
+									color: orange">${element.project_url}</a></p>
                                  `
+					console.log('element', element)
 					let item = `	
 						<li class="item" style="color: white;list-style: none;margin-right: 10px;margin-left: 10px">
           ${details}
@@ -52,7 +59,6 @@ buildList()
 </div>
 					`
                     let items = document.getElementById('items')
-					wrapper.innerHTML += item
                     items.innerHTML += item
                     console.log(item)
 				})
